@@ -7,7 +7,20 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+
+
 ```
+
+git status #checks current status of repository
+
+git add -A #adds altered and untracked files to staging area
+
+git commit -am "<message>" #commit changes with message
+
+git push #push committed changes to Github 
+
+git pull #pull any changes from Github dwon to local repo
 
 ## R Markdown
 
